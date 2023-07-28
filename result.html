@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+  <title> Live VIrtual Class </title>
+  <link rel="stylesheet" href="./css/link1.css">
+  
+  <style>
+
+header{background-color:cyan;height:300px} 
+
+nav ul li {display:inline; margin:15px;}
+
+  </style>
+
+  <script>
+   function jfun1()
+   {
+   // alert("testing")
+
+   var m=parseInt(frm1.t1.value)
+   var e=parseInt(frm1.t1.value)
+   var c=parseInt(frm1.t1.value)
+
+
+   tmarks=m+e+c;
+   frm1.t4.value=tmarks;
+    
+   }
+
+  </script>
+
+</head>
+
+<body>
+
+<header style="background-image: url(./images/1.jpg);">
+
+
+</header>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="registration.html">Registration</a></li>
+        <li><a href="result.html">Result</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        
+        
+
+    </ul>
+</nav>
+
+<div style="background-color: grey; width:800px;height: 400px;">
+
+    <form name="frm1">
+    <pre>
+     Name <input type="text">
+     Marks :
+     Maths <input type="text" name="t1" id="t1"> English <input type="text" name="t2" id="t2"> Computer <input type="text" name="t3" id="t3">
+     
+     Result :
+     Total Marks <input type="text" name="t4">% Marks <input type="text" name="t5"> Max Marks <input type="text" name="t6">
+
+      <input type="button" value="Result" onclick="jfun1()">
+    </pre>
+
+
+
+    </form>
+
+
+</div>
+
+
+<div style="height: 300px;;">
+
+
+</div>
+
+
+
+<footer style="background-color: brown;height:200px;">
+    This Website is Developed By : Your Name
+
+</footer>
+
+</body>
+</html>
+

@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+  <title> Live VIrtual Class </title>
+  <link rel="stylesheet" href="./css/link1.css">
+  
+  <style>
+
+header{background-color:cyan;height:300px} 
+
+nav ul li {display:inline; margin:15px;}
+h2 {
+		text-shadow: 5px 5px 10px rgb(0, 255, 30), 10px 10px 20px yellow;
+	}
+  </style>
+<script>
+function jfun1()
+{
+  //alert("Just For Testing")
+
+  name=frm1.t1.value;
+  designation=frm1.t2.value;
+
+  if(name=="")
+  {
+    alert("Please Enter the Name")
+    return false;
+  }
+else{
+  return true
+  alert("Go Ahead")
+}
+
+}
+</script>
+</head>
+<body>
+<header style="background-image: url(./images/1.jpg);">
+</header>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="registration.html">Registration</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+</nav>
+<h2> Made In India</h2>
+<center>
+<div style="background-color: grey;border-radius:30px;width:50%;">
+    <h2> Registration Page</h2>
+    <form name="frm1" onsubmit="return jfun1()" action="thanks.html">
+      <pre>
+    Name          <input type="text" name="t1" placeholder="Your Name Here"><br>
+    Designation   <input type="text" name="t2" placeholder="Your Designation Here"><br>
+    Email         <input type="email" name="t3" placeholder="Your Location Here"><br>
+    Location      <input type="text" name="t4" placeholder="Your Location Here"><br>
+    <input type="submit" value="Register">
+  </pre>
+    </form>
+</div>
+</center>
+<br>
+<br>
+
+<footer style="background-color: brown;height:100px;">
+    This Website is Developed By : Your Name
+
+</footer>
+
+</body>
+</html>
+
